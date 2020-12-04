@@ -12,10 +12,10 @@ fun main(){
 fun evenSum(arr: IntArray){
     var sum=0
     for(i in arr.indices)
-        if(i%2==0){
+        if(arr[i]%2==0){
+            println("Even numbers are : ${arr[i]}")
+            sum = sum + arr[i]
 
-            sum = sum + i
-            println("Even numbers are : $i")
         }
 
     println(" Sum of Even numbers is : $sum ")
