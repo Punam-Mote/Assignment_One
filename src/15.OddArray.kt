@@ -1,7 +1,7 @@
 package assignment1
 
 fun main(){
-    val arr = IntArray(5)
+    val arr = IntArray(6)
 
     for (i in arr.indices) {
         print("Enter the Element")
